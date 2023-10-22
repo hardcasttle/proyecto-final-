@@ -1,0 +1,77 @@
+//*Variables de la navbar.*//
+$header-height: 85px;
+$header-padding: 5px 10%;
+$header-font: 'Jomhuria', cursive;
+$header-font-size: 30px;
+$logo-height: 80px;
+$nav-link-padding: 0 20px;
+$nav-link-font-size: 24px;
+$nav-link-color: #45474B;
+$nav-link-hover-color: #45474B;
+$btn-font-weight: 700;
+$btn-text-color: #F5F7F8;
+$btn-bg-color: #45474B;
+$btn-border-radius: 50px;
+
+//*Variables de los titulos*//
+$titulo-font: 'Jomhuria', cursive;
+$titulo-font-size: 80px;
+$titulo-color: #000;
+$titulo-mobile-font-size: 40px;
+
+//*Variables de la galeria*//
+$fotos-display: flex;
+$fotos-justify-content: center;
+$fotos-align-items: center;
+$fotos-min-height: 100vh;
+$galeria-max-width: 750px;
+$galeria-grid-columns: repeat(3, 250px);
+$galeria-grid-rows: repeat(3, 250px);
+$galeria-grid-gap: 1rem;
+$img-bg-color: #45474B;
+$img-border-radius: 10px;
+
+//*Variables de integrantes*//
+$card-border: 1px solid #495E57;
+$card-border-radius: 5px;
+$card-padding: 20px;
+$card-margin: 10px;
+$card-text-align: center;
+$card-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+$card-bg-color: #F5F7F8;
+$card-transition: transform 0.2s;
+$card-hover-transform: scale(1.05);
+$social-icons-margin-top: 10px;
+$social-icon-margin: 0 10px;
+$social-icon-max-width: 35px;
+
+//*Variables de timeline*//
+$card-border: 1px solid #F4CE14;
+$card-padding: 20px;
+$card-margin: 10px;
+$card-bg-color: #45474B;
+$card-box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+$card-border-radius: 5px;
+$card-text-align: center;
+$h2-font-size: 20px;
+$h2-color: #fff;
+$p-font-size: 16px;
+$p-color: #fff;
+
+//*Variables de GCN*//
+$container-bg-color: #45474B;
+$container-color: #F5F7F8;
+$objetivo-cumplido-color: #fff;
+$p-gira-text-align: center;
+$p-gira-line-height: 1.5;
+$p-gira-max-width: 100%;
+$p-gira-margin: 0;
+$p-gira-color: #fff;
+
+//*Variables de discografia*//
+$common-bg-color: #45474B;
+$common-border: 1px solid #F5F7F8;
+$common-border-radius: 5px;
+$common-padding: 30px;
+$common-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$common-text-color: #fff;

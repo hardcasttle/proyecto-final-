@@ -1,0 +1,55 @@
+.container-class {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cards {
+    height: 785px;
+    background-color: $common-bg-color;
+    border: $common-border;
+    border-radius: $common-border-radius;
+    padding: $common-padding;
+    width: 300px;
+    box-shadow: $common-box-shadow;
+    text-align: center;
+
+img {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: $common-border-radius;
+}
+
+h2 {
+    color: $common-text-color;
+    font-size: 1.0rem;
+    margin: 10px 0;
+}
+
+li {
+    display: list-item;
+    text-align: left;
+    color: $common-text-color;
+    list-style: none;
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+
+&::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: $common-text-color;
+    }
+}
+
+p {
+    font-size: 0.8rem;
+    color: $common-text-color;
+    margin-top: 20px;
+}
+}

@@ -1,0 +1,23 @@
+//*Estilos de los titulos principales*// 
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $titulo-font;
+    font-size: $titulo-font-size;
+    color: $titulo-color;
+
+h1, h2 {
+    margin: 0;
+    color: $titulo-color;
+    text-decoration: underline;
+a {
+    text-decoration: underline;
+    }
+}
+
+// Media Queries Responsive
+@media (max-width: 768px) {
+    font-size: $titulo-mobile-font-size;
+}
+}

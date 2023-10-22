@@ -1,0 +1,36 @@
+.fotos {
+    display: $fotos-display;
+    justify-content: $fotos-justify-content;
+    align-items: $fotos-align-items;
+    min-height: $fotos-min-height;
+
+.galeria {
+    max-width: $galeria-max-width;
+    display: grid;
+    grid-template-columns: $galeria-grid-columns;
+    grid-template-rows: $galeria-grid-rows;
+    grid-gap: $galeria-grid-gap;
+
+.img-a {
+    background-color: $img-bg-color;
+    grid-column: 1/3;
+}
+
+.img-b {
+    background-color: $img-bg-color;
+    grid-row: 2/4;
+}
+
+.img-f {
+    background-color: $img-bg-color;
+    grid-column: 2/4;
+    }
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: $img-border-radius;
+    }
+}
+}

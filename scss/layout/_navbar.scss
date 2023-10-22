@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: $header-height;
+    padding: $header-padding;
+    font-family: $header-font;
+    font-size: $header-font-size;
+
+.logo {
+    cursor: pointer;
+    img {
+    height: $logo-height;
+    width: auto;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);
+    }
+    }
+}
+
+.nav-links {
+    list-style: none;
+    li {
+    display: inline-block;
+    padding: $nav-link-padding;
+&:hover {
+    transform: scale(1.1);
+    }
+a {
+    font-size: $nav-link-font-size;
+    color: $nav-link-color;
+    text-decoration: none;
+&:hover {
+    color: $nav-link-hover-color;
+    }
+    }
+    }
+}
+
+.btn {
+    button {
+    font-weight: $btn-font-weight;
+    color: $btn-text-color;
+    padding: 9px 25px;
+    background: $btn-bg-color;
+    border: none;
+    border-radius: $btn-border-radius;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+&:hover {
+    background-color: $btn-bg-color;
+    color: $btn-text-color;
+    transform: scale(1.1);
+    }
+    }
+}
+}
+
+
+
+
+//*MEDIAQUERRYS RESPONSIVE*//
+@media (max-width: 768px) {
+    .header {
+        padding: 5px 5%; /* Ajusta el padding para pantallas más pequeñas */
+        font-size: 24px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+    
+    .nav-links li {
+        padding: 0 10px; /* Ajusta el espaciado entre elementos de navegación */
+    }
+}

@@ -1,0 +1,24 @@
+.timeline {
+    .card {
+    border: $card-border;
+    padding: $card-padding;
+    margin: $card-margin;
+    background-color: $card-bg-color;
+    box-shadow: $card-box-shadow;
+    border-radius: $card-border-radius;
+    text-align: $card-text-align;
+
+h2 {
+    font-size: $h2-font-size;
+    color: $h2-color;
+}
+
+p {
+    font-size: $p-font-size;
+    color: $p-color;
+    }
+}
+}
+
+
+

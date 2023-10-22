@@ -1,0 +1,47 @@
+// Estilos para .container
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: $container-bg-color;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid $container-bg-color;
+  border-radius: 10px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+  color: $container-color;
+
+  .objetivo-cumplido {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: $objetivo-cumplido-color;
+  }
+
+  .p-gira {
+    text-align: $p-gira-text-align;
+    line-height: $p-gira-line-height;
+    max-width: $p-gira-max-width;
+    margin: $p-gira-margin;
+    color: $p-gira-color;
+  }
+}
+
+
+//*MEDIAQUERRY RESPONSIVE*//
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .objetivo-cumplido {
+    font-size: 20px;
+  }
+
+  .p-gira {
+    line-height: 1.3;
+  }
+}
